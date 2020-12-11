@@ -20,6 +20,9 @@ def test_triple_cut():
     deck.triple_cut()
     assert deck.cards == [3, 9, 54, 4, 8, 7, 1, 53, 2, 4, 6]
 
+def test_count_cut():
+    assert False
+
 def test_extract():
     deck = solitaire.sorted_deck()
     assert deck.extract() == 1
